@@ -9,9 +9,10 @@ h2{
 } 
 
 body {
-font-family: "Verdana", Geneva, sans-serif;
+	font-family: "Verdana", Geneva, sans-serif;
 }
-body {background-color: skyblue;
+body {
+	background-color: skyblue;
 }
 img {
 	width: 150px; 
@@ -47,6 +48,10 @@ input  {
 #Tekst{
 	border:solid;
 	border-color: pink;
+	
+}
+#Tekst:focus{
+	border-color: green;
 	
 }
 
